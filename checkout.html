@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    
+
     <link rel="stylesheet" href="styles/style.css" >
     <title>Adoptadog | Seattle's Premier Dog Adoption Agency</title>
   </head>
@@ -20,7 +20,7 @@
                 alt="Adoptadog logo"
             ></a>
           </p>
-          <p class="logotext">Seattle’s premier dog adoption agency</p>
+          <p class="logotext">Seattle&rsquo;s premier dog adoption agency</p>
         </div>
         <div class="top-box">
           <p><i class="fa fa-shopping-cart fa-2x"></i>$1234.56</p>
@@ -43,22 +43,22 @@
       <form method="get" id="checkout-form">
         <label
           >Name
-          <input type="text" name="adoptname" >
+          <input type="text" name="adoptname" id="name">
         </label>
         <label
           >Email Address
-          <input type="text" name="adoptemail" >
+          <input type="text" name="adoptemail" id="email">
         </label>
         <label
           >Street Address
-          <input type="text" name="adoptStreet" >
+          <input type="text" name="adoptStreet" id="street">
         </label>
         <label
           >City
-          <input type="text" name="adoptCity" >
+          <input type="text" name="adoptCity" id="city">
         </label>
         <label>State</label>
-        <select name="adoptstate">
+        <select name="adoptstate" id="state">
           <option value="AL">Alabama</option>
           <option value="AK">Alaska</option>
           <option value="AZ">Arizona</option>
@@ -114,11 +114,11 @@
         <fieldset class="radio">
           <legend>First Time Adopter?</legend>
           <label
-            ><input type="radio" name="adoptbefore" value="yes" >Yes<span
+            ><input type="radio" name="adoptBefore" id="adopt-before" value="yes" >Yes<span
             ></span
           ></label>
           <label
-            ><input type="radio" name="adoptbefore" value="no" >No<span></span
+            ><input type="radio" name="adoptBefore" id="adopt-before-no" value="no" >No<span></span
           ></label>
         </fieldset>
         <label>Pickup Location</label>
@@ -135,7 +135,7 @@
             <p>Lucas</p>
             <p><strong>Cost to Adopt:</strong> $123.45</p>
           </div>
-          <div class="adopted-box2">
+          <div class="adopted-box">
             <img
               src="images/duffy-card.jpg"
               alt="Duffy is white and brown dog"
@@ -149,7 +149,6 @@
         <input type="submit" value="Submit" id="submitcheckout" >
       </form>
     </article>
-
     <footer>
       <img src="images/adoptadog-logo.svg" alt="adopt a dog logo" >
       <p>
@@ -166,5 +165,7 @@
         © 2018 Adoptadog, LLC | Seattle, WA
       </p>
     </footer>
+    <script type="text/javascript" charset="utf-8" src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script type="text/javascript" src="jscripts/checkout.js"></script>
   </body>
 </html>

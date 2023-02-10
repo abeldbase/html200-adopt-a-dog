@@ -376,6 +376,17 @@ radial-gradient-2 {
   .adopted-dog-container {
     display: flex;
   }
+  .adopted-box {
+  width: 20rem;
+  margin: 0rem 2rem 0rem 0rem;
+}
+  .adopted-box img {
+    width: 5rem;
+    height: 5rem;
+    margin: 0rem 1rem 0rem 0rem;
+    object-fit: cover;
+    float: left;
+  }
 
   .blog-box {
     width: 20rem;
@@ -406,8 +417,6 @@ radial-gradient-2 {
       display: block;
       background:linear-gradient(white,rgb(9, 60, 96),wheat);
       background-size: cover;
-
-
 
   }
   .blog-article {
