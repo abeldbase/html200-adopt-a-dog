@@ -209,12 +209,15 @@ radial-gradient-2 {
     width: 100%;
     margin: 1rem 0rem 1rem;
     box-sizing: border-box ;
-    border: 1px solid #c5c7c2;
+    border: 1px solid #093c60,red;
   }
+  .dog-container-effect {
+  opacity: 0.9;
+}
 
   .dog-container-border {
     border: 3px solid #c5c7c2;
-    box-shadow: 3px 3px 6px #999;
+    box-shadow: red;
   }
   .dog-container img {
     width: 100%;
