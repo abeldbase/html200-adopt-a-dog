@@ -23,7 +23,7 @@ and find out one from this site using her MacBook and safari browser .
 ## Testing
 
 Testing methods has been done and the result is in the following directory link
-
+https://github.com/abeldbase/html200-adopt-a-dog/blob/lesson10/testing.txt
 ## Copyright
 
 This website is copyright Adopt a dog Seattle.
