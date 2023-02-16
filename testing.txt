@@ -1,0 +1,19 @@
+Testing for "Adopt a dog" website
+HTML200 certificate program  Project by Abel Mengstu
+
+This site is tested for the following browsers and devices.
+
+Desktop:
+- Chrome
+- Edge
+- Safari
+- Firefox
+
+Mobile devices :
+- Safari iOS on iPhone 12, and iPad 11 pro,
+- Google Chrome for Android on Galaxy, Vivo x9
+
+On all tests on above browsers, the site was working well
+except some white spaces on right and left side  on mobile devices.
+This project is a very challenging and successful project as a certificate
+program student .
